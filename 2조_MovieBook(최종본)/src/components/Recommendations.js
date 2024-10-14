@@ -45,7 +45,7 @@ const Recommendation = ({ addPurchasedMovie, addRentedMovie }) => {
   ];
 
   const fetchMoviesByGenre = async (genreId) => {
-    const tmdbApiKey = 'd961a3c924d140f63d761b0648d7e1fe';
+    const tmdbApiKey = '';
     if (!genreId) return;
 
     try {

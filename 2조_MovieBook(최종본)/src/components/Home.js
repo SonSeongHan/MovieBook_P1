@@ -11,7 +11,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import searchIcon from './look-up-svgrepo-com.svg';
 // 검색기능을위한 api추가 10/9이진수
-const API_KEY = 'd961a3c924d140f63d761b0648d7e1fe';
+const API_KEY = '';
 //svg아이콘 추가 이진수 1010
 
 const Home = () => {

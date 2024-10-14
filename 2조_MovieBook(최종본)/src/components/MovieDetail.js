@@ -21,7 +21,7 @@ const MovieDetail = ({ addPurchasedMovie, addRentedMovie }) => {
   const [reviews, setReviews] = useState([]);
   const [newReview, setNewReview] = useState('');
   const [rating, setRating] = useState(0);
-  const tmdbApiKey = 'd961a3c924d140f63d761b0648d7e1fe';
+  const tmdbApiKey = '';
 
   const [isRented, setIsRented] = useState(false);
   const [isPurchased, setIsPurchased] = useState(false);

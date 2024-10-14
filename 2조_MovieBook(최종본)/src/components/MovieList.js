@@ -14,7 +14,7 @@ function MovieList() {
 
     const fetchMovies = async () => {
         /* console.log("Fetching movies..."); // 추가된 로그 */
-        const tmdbApiKey = 'd961a3c924d140f63d761b0648d7e1fe';
+        const tmdbApiKey = '';
 
         try {
             const nowPlayingMoviesUrl = `https://api.themoviedb.org/3/movie/now_playing?api_key=${tmdbApiKey}&language=ko-KR&page=1`;

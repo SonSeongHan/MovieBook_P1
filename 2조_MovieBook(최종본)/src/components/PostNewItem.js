@@ -194,7 +194,7 @@ export function postReducer(state, action) {
 export const PostContext = React.createContext();
 const PostNewItem = ({ post }) => {
   const [loading, setLoading] = useState(true); // Add loading state
-  const TMDB_API_KEY = "11c7eb7de1abac7c29df261fa9c3c6fa";
+  const TMDB_API_KEY = "";
   const movieId = 550;
 
   const [localState, localDispatch] = useReducer(
