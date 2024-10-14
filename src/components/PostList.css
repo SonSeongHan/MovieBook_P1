@@ -1,0 +1,84 @@
+/* 24.10.10 정율아 */
+.postList {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: palevioletred transparent;
+  font-size: 11px;
+
+  white-space: pre;
+  text-decoration: none;
+  color: #c5749d;
+  padding-bottom: 0.25rem;
+
+  border-right: 1px solid #ccc;
+}
+
+.postList::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+.postList::-webkit-scrollbar-thumb {
+  background-color: palevioletred;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+
+.postList::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* .postList > h4 {
+  font-size: 18px;
+  color: palevioletred;
+} */
+
+a:hover {
+  color: palevioletred;
+}
+
+.postList.active {
+  font-weight: 600;
+  border-bottom: 2px solid #22b8cf;
+  color: #22b8cf;
+}
+.postList.hover {
+  color: #3bc9db;
+}
+
+.postItem + .postItem {
+  margin-top: 1rem; /* For example, space between post items */
+}
+
+.postItem {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.postItem:last-child {
+  border-bottom: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(235, 191, 207);
+}
+.likeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.likeButton svg {
+  transition: fill 0.2s ease;
+}
+
+.likeButton.liked svg {
+  fill: palevioletred;
+}
