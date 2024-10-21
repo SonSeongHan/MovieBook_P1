@@ -14,7 +14,7 @@ tmdb API를 받아 react로 구현한 SPA 페이지
 - 영화 대여 또는 구매 시 해당 영화 관련된 페이지로 이동
 
 메인화면
-![실시간 리뷰 및 영화 리스트](https://github.com/user-attachments/assets/ed8ef10a-0de8-44b9-80fa-068dfeaef3d1)
+![영화 메인페이지](https://github.com/user-attachments/assets/f92cec28-95e4-4417-b8e5-d87230907723)
 
 게시글 새로운 게시글 작성
 ![포스터 게시글 작성](https://github.com/user-attachments/assets/66c02f5d-9664-459a-ae2c-79d74b48fd90)
