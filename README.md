@@ -12,3 +12,6 @@ tmdb API를 받아 react로 구현한 SPA 페이지
 - 탭 클릭 시 원하는 페이지로 이동 가능
 - 영화 클릭 시 해당 영화 디테일 설명, 관련 영상(유튜브), 리뷰 작성
 - 영화 대여 또는 구매 시 해당 영화 관련된 페이지로 이동
+
+메인화면
+<img width="1236" alt="메인화면" src="https://github.com/user-attachments/assets/07176694-08e9-4312-b642-2cc233cdb082">
