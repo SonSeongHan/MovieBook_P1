@@ -1,4 +1,4 @@
-# MovieBook_P1
+# MovieBook
 tmdb API를 받아 react로 구현한 SPA 페이지
 
 기능
